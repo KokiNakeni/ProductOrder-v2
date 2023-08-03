@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj": {}
+    "C:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj": {
+    "C:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj",
         "projectName": "ProductOrder",
-        "projectPath": "c:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj",
+        "projectPath": "C:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dell\\ProductOrder\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\ProductOrder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,30 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             }

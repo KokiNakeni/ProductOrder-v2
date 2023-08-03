@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using ProductOrder_application.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddDbContext<ProductOrder_applicationContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
