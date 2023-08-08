@@ -12,9 +12,7 @@ namespace ProductOrder_application.Models
             context.Database.EnsureCreated();
         
         
-            
-
-            var products = new Product[]
+              var products = new Product[]
             {
                 new Product
                 {
@@ -95,15 +93,15 @@ namespace ProductOrder_application.Models
                     Price = decimal.Parse("900.00"),
                     Description = "Fitness and health tracking smartwatch",
                     Image = "smartwatch.jpg"
-                },
+                }
             };
 
             foreach (var product in products)
             {
                 context.Products.Add(product);
-
-                 context.SaveChanges();
             }
+
+            context.SaveChanges();
         }
     }
 }
