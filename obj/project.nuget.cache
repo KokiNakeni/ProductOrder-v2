@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iojFA1yGSWRo0zgOqjfVoG87XlpFxRJDnWws6mMkD5j3xOjSzOOMQj6X15w0r1Gk8GmiTH4t7gG98qESXTFhnQ==",
+  "dgSpecHash": "ur71PhdY52eiaQaatNShAv8sBvJvhQ+TYaLTZ0HSdCbecH3/tJvOoYkKDmqixVXkywqeft3C/rn/Oku7iX3jzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\ProductOrder\\ProductOrder.csproj",
+  "projectFilePath": "c:\\Users\\Dell\\Documents\\GitHub\\ProductOrder-v2\\ProductOrder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
