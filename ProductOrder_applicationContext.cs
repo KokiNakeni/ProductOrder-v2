@@ -13,7 +13,7 @@ namespace ProductOrder_application.Infrastructure
         public readonly ProductOrder_applicationContext context;
         public ProductOrder_applicationContext(DbContextOptions<ProductOrder_applicationContext> options): base(options)
         {
-           // config = options;
+            config = options;
         }
         public DbSet<StaffMemberDetails> StaffMemberDetails { get; set; }
         public DbSet<Product> Products { get; set; } = null;
